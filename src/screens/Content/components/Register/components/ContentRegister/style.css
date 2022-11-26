@@ -1,0 +1,40 @@
+.container-register {
+	width: 100%;
+	background-image: url("../../../../../../assets/fundo-verde.svg");
+	background-repeat: no-repeat;
+	background-size: 42rem;
+	background-position: right top;
+	padding-left: 70px;
+}
+
+
+.content-register {
+	display: flex;
+}
+
+/* IMAGEM BACKGROUND */
+.register-form {
+	display: flex;
+	position: relative;
+}
+
+
+.img-desenho-register {
+	position: absolute;
+	top: 18.75rem;
+	right: 1.875rem;
+	width: 36.25rem;
+
+}
+
+@media (min-width: 1800px) {
+	.container-register {
+		background-size: 70rem;
+	}
+
+	.img-desenho-register {
+		top: 18.75rem;
+		width: 62.5rem;
+
+	}
+}

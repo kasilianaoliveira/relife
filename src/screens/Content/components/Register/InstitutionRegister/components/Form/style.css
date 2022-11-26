@@ -1,0 +1,79 @@
+.form-register {
+	display: flex;
+	flex-direction: column;
+	margin: 3.75rem 0;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+}
+
+.info input {
+	width: 38.125rem;
+
+}
+
+.info div {
+	display: flex;
+	flex-direction: column;
+}
+
+
+.info div label,
+.address div label,
+.info-details div label {
+	padding-left: 10px;
+}
+
+
+.address div {
+	display: flex;
+	gap: 10px;
+
+}
+
+.address {
+	display: flex;
+	flex-direction: column;
+}
+
+
+.address-country input {
+	display: flex;
+}
+
+
+.smaller-input input,
+.info-details select {
+	width: 300px;
+}
+
+
+.smaller-input select:first-child {
+	margin-right: 0.625rem;
+}
+
+.label-style {
+	display: flex;
+	flex-direction: column;
+}
+
+.button-submit.register {
+	width: 38.125rem;
+}
+
+.password-box {
+	display: flex;
+	flex-direction: column;
+}
+
+
+@media (min-width: 1800px) {
+
+	.container-register {
+		background-size: 70rem;
+		background-position: right center;
+	}
+
+}

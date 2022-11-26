@@ -1,0 +1,118 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img {
+	display: block;
+
+}
+
+a {
+	display: inline-block;
+	color: inherit;
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	color: #333333;
+}
+
+body::-webkit-scrollbar {
+	width: 1rem;
+}
+
+
+body::-webkit-scrollbar-thumb {
+	background-color: #ccc;
+	border-radius: 0.5rem;
+	border: 0.25rem solid white;
+	color: '#fff';
+
+}
+
+input,
+button,
+select {
+	border: 0;
+}
+
+button,
+select {
+	font-family: 'Poppins', sans-serif;
+	cursor: pointer;
+}
+
+
+input,
+select {
+	background-color: #F3F0F0;
+	width: 29.5625rem;
+	height: 3.75rem;
+	font-size: 1rem;
+	border-radius: 1.25rem;
+	padding: 20px;
+	font-family: Poppins;
+
+}
+
+select {
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	padding-right: 20px;
+}
+
+.info select {
+	width: 600px;
+}
+
+input:focus {
+	outline: 0;
+	border: 2px solid #AED3D1;
+	border-color: #AED3D1;
+}
+
+.login {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 3.125rem;
+}
+
+.content-main-form {
+	display: flex;
+
+}
+
+.content-main-form .login-form {
+	position: absolute;
+}
+
+.content-main-form .login-form {
+	right: 3rem;
+	top: 20%;
+}
+
+input:autofill {
+	box-shadow: 0 0 0 1.875rem #F3F0F0 inset;
+}
+
+input:-webkit-autofill {
+	box-shadow: 0 0 0 1.875rem #F3F0F0 inset;
+}
+
+@media (min-width: 1800px) {
+
+	.content-main-form .login-form {
+		right: 9rem;
+		top: 30%;
+	}
+}

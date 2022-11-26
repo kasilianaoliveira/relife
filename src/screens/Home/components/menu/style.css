@@ -1,0 +1,39 @@
+.header {
+	height: 140px;
+}
+
+.header nav {
+	/* max-width: 1200px; */
+	padding-top: 1rem;
+	margin: 0px 60px;
+	display: flex;
+	gap: 20px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header nav ul {
+	width: 70%;
+	display: flex;
+	justify-content: space-evenly;
+	gap: 20px;
+}
+
+.header nav ul li {
+	cursor: pointer;
+	font-weight: 600;
+}
+
+.header nav ul li:hover {
+	color: #009F70;
+}
+
+
+.doe {
+	color: #009F70;
+}
+
+.logo {
+	width: 80px;
+	height: 80px;
+}

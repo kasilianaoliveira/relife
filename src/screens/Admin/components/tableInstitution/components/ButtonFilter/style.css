@@ -1,0 +1,22 @@
+.info-filter {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 3rem 1.875rem;
+
+}
+
+.button-filter {
+	display: flex;
+	gap: 30px;
+}
+
+.button-filter button {
+	padding: 10px 30px;
+	border-radius: 10px;
+	background-color: #A9D6D3;
+}
+
+.input-filter {
+	height: 50px;
+}

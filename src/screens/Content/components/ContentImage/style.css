@@ -1,0 +1,97 @@
+.content-img {
+	position: relative;
+	width: 70%;
+	background-image: url("../../../../assets/fundo-oficial.png");
+	background-repeat: no-repeat;
+	background-size: 780px;
+}
+
+.content-title-img {
+	display: flex;
+	flex-direction: column;
+	margin-top: 50px;
+	margin-left: 20%;
+}
+
+.content-title-img h1 {
+	color: white;
+	font-size: 50px;
+}
+
+.content-title-img .title-style {
+	margin-left: 80px;
+}
+
+.img-medico {
+	position: absolute;
+	bottom: 0;
+	right: 300px;
+	width: 400px;
+}
+
+@media (max-width: 800px) {
+
+
+	.content-title-img h1 {
+
+		font-size: 35px;
+	}
+
+	.content-title-img .title-style {
+		margin-left: 0px;
+	}
+
+
+	.title-style-main {
+		margin-top: 150px;
+
+	}
+
+
+	.img-medico {
+		display: none;
+	}
+
+}
+
+@media (max-width: 1350px) {
+
+
+	.content-img {
+		background-size: 700px;
+	}
+
+
+	.content-title-img {
+		margin-top: 50px;
+		margin-left: 20%;
+	}
+
+
+	.img-medico {
+		position: absolute;
+		bottom: 0;
+		right: 100px;
+		/* width: 00px; */
+	}
+
+}
+
+@media (min-width: 1800px) {
+
+
+	.content-title-img h1 {
+		font-size: 80px;
+	}
+
+	.content-img {
+
+		background-size: 1200px;
+	}
+
+	.img-medico {
+		right: 350px;
+		width: 600px;
+	}
+
+}

@@ -1,0 +1,10 @@
+:root {
+	--progress: 80;
+}
+
+
+.submenu {
+	width: 80%;
+	background-color: white;
+	border-radius: 0px 20px 20px 0px;
+}

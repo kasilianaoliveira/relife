@@ -1,0 +1,36 @@
+.card {
+	cursor: pointer;
+	background-color: #F3F0F0;
+	width: 473px;
+	height: 120px;
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	border-radius: 20px;
+	padding: 0 30px;
+	text-align: left;
+
+}
+
+.card-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.icon-card {
+	height: 46px;
+	width: 46px;
+}
+
+.card:hover {
+	background-color: #d1cece;
+}
+
+.card span {
+	color: #88AFAD;
+}
+
+.register-card {
+	text-align: center;
+}

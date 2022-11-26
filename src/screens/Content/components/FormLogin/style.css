@@ -1,0 +1,37 @@
+.form-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.content-title {
+	display: flex;
+	flex-direction: column;
+}
+
+.button-submit {
+	margin-top: 1.25rem;
+	width: 29.5625rem;
+	height: 3.75rem;
+	border-radius: 1.25rem;
+	font-weight: bold;
+	font-size: 16px;
+	color: white;
+	background-color: #AED3D1;
+
+}
+
+.button-submit:hover {
+	background-color: #7bc0bd;
+
+}
+
+.error-message {
+	color: rgb(255, 72, 72);
+	font-size: 0.75rem;
+	margin-bottom: 25px;
+	margin-left: 10px;
+	/* width: 300px; */
+	/* margin-top: 8px; */
+}

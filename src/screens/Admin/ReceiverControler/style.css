@@ -1,0 +1,16 @@
+:root {
+	--progress: 80;
+}
+
+
+
+.content {
+	display: flex;
+
+}
+
+.submenu {
+	width: 80%;
+	background-color: white;
+	border-radius: 0px 20px 20px 0px;
+}

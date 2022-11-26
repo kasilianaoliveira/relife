@@ -1,0 +1,89 @@
+.form-register {
+	display: flex;
+	flex-direction: column;
+	margin: 3.75rem 0;
+	position: absolute;
+	top: 9.375rem;
+	left: 4.375rem;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+}
+
+.info div {
+	display: flex;
+	flex-direction: column;
+}
+
+
+.info div label,
+.address div label,
+.info-details div label {
+	padding-left: 10px;
+}
+
+.info-details div {
+	display: flex;
+	gap: 10px;
+	margin-bottom: 10px;
+}
+
+.info-details select {
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	padding-right: 20px;
+}
+
+.address div {
+	display: flex;
+	gap: 10px;
+
+}
+
+.address {
+	display: flex;
+	flex-direction: column;
+}
+
+
+.address-country input {
+	display: flex;
+}
+
+
+.smaller-input input,
+.info-details select {
+	width: 18.75rem;
+}
+
+
+.smaller-input select:first-child {
+	margin-right: 0.625rem;
+}
+
+.label-style {
+	display: flex;
+	flex-direction: column;
+}
+
+.button-submit.register {
+	width: 38.125rem;
+}
+
+.password-box {
+	display: flex;
+	flex-direction: column;
+}
+
+
+@media (min-width: 1800px) {
+
+	.container-register {
+		background-size: 70rem;
+		background-position: right center;
+	}
+
+}

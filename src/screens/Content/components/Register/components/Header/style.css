@@ -1,0 +1,15 @@
+.header-register {
+	display: flex;
+	align-items: center;
+	gap: 1.875rem;
+	padding-top: 2.5rem;
+
+}
+
+.description {
+	width: 31.25rem;
+}
+
+.header-register button {
+	background-color: transparent;
+}

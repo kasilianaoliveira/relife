@@ -1,0 +1,33 @@
+.button-article {
+	width: 156px;
+	height: 42px;
+
+	font-size: 1em;
+	border-radius: 10px;
+
+	background: #a9d6d3;
+	color: #333333;
+}
+
+.style-modal {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.button-style-modal {
+	color: #333333;
+	padding: 0.625rem 1.25rem;
+	margin-top: 4.375rem;
+	width: 7.25rem;
+	border-radius: 0.625rem;
+	font-weight: bold;
+}
+
+.button-style-modal.cancel {
+	background-color: #c7e0de;
+}
+
+.button-style-modal.exit {
+	background-color: #bf4444;
+}
