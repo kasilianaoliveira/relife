@@ -31,9 +31,11 @@ export const UpdateUserInstitutionRegister = () => {
 	// cost
 	const updateUser = async (data: User) => {
 
-		// const organs = {
-		// 	organ_type: orgao.
-		// }
+		const organs = {
+			organ_type: data.organs?.organ_type,
+			description: data.organs?.description
+
+		}
 		// eslint-disable-next-line react-hooks/exhaustive-deps
 		const user = {
 			blood_type: data.blood_type,
@@ -44,9 +46,11 @@ export const UpdateUserInstitutionRegister = () => {
 
 		try {
 			await api.put(`/institutions/users/${auth.userCPF}`, user)
+			await api.put(`/institutions/users/${auth.userCPF}/organs`, organs)
+			console.log(organs)
 
 
-			navigate("/dashboard/instituicao")
+			// navigate("/dashboard/instituicao")
 
 
 		} catch (error) {
