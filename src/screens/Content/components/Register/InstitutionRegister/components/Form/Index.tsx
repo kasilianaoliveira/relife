@@ -46,6 +46,8 @@ export const FormInstitution = () => {
 		if (postalCode?.length !== 8) {
 			setValue('city', '')
 			setValue('uf', '')
+			setValue('street', '')
+			setValue('district', '')
 		}
 
 
@@ -54,6 +56,10 @@ export const FormInstitution = () => {
 			.then((data) => {
 				setValue('city', data.localidade)
 				setValue('uf', data.uf)
+				setValue('street', data.logradouro)
+				setValue('district', data.bairro)
+
+
 			})
 	}
 	const verificarCampos = async () => {

@@ -58,6 +58,8 @@ export const UserRegister = () => {
 		if (postalCode?.length !== 8) {
 			setValue('city', '')
 			setValue('uf', '')
+			setValue('street', '')
+			setValue('district', '')
 		}
 
 
@@ -66,6 +68,8 @@ export const UserRegister = () => {
 			.then((data) => {
 				setValue('city', data.localidade)
 				setValue('uf', data.uf)
+				setValue('street', data.logradouro)
+				setValue('district', data.bairro)
 			})
 	}
 
