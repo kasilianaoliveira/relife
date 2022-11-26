@@ -1,5 +1,5 @@
 import { Box } from "@mui/material";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import Profile from "../../../../assets/profile.svg";
 import { useAuth } from "../../../../context/useAuth";
 import ModalButton from "../Modal/Index";

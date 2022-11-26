@@ -10,6 +10,7 @@ export const Menu = () => {
 					<Link to="/">
 						<img src={Logo} alt="ReLife logo" className='logo' />
 					</Link>
+
 				</div>
 				<ul>
 					<li className='doe'>

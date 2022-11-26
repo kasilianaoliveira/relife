@@ -28,13 +28,17 @@ export const UpdateUserInstitutionRegister = () => {
 
 	const navigate = useNavigate()
 
+	// cost
 	const updateUser = async (data: User) => {
 
+		// const organs = {
+		// 	organ_type: orgao.
+		// }
 		// eslint-disable-next-line react-hooks/exhaustive-deps
 		const user = {
 			blood_type: data.blood_type,
 			institution_id: auth.id,
-
+			// organs:
 			// organs: data
 		}
 
@@ -49,9 +53,6 @@ export const UpdateUserInstitutionRegister = () => {
 
 		}
 	}
-
-
-
 
 	const onSubmitHandler = async (data: User) => {
 
@@ -100,21 +101,6 @@ export const UpdateUserInstitutionRegister = () => {
 
 							</select>
 						</Box>
-						<Box >
-
-							<Box className="label-style">
-								<label htmlFor='organs'>Orgão</label>
-								<select {...register("blood_type")} value={auth.selectValue} onChange={e => setOrgao(e.target.value)}>
-
-									{organsType.map((item, index) => (
-										<option key={index} value={item.name}>{item.name}</option>
-									))}
-
-								</select>
-							</Box>
-
-						</Box>
-
 					</Box>
 				</Box>
 				<button type="submit" className='button-submit register'>Cadastrar</button>

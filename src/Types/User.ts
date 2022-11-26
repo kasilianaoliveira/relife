@@ -27,6 +27,9 @@ export type User = {
 
 	institution_id?: string;
 
-	organs?: Organs[];
+	organs?: {
+		organ_type: string;
+		description: string;
+	}
 
 }

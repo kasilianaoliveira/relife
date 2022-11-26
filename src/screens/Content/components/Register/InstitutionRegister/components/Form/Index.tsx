@@ -36,7 +36,7 @@ export const FormInstitution = () => {
 
 	const navigate = useNavigate()
 
-	const { register, handleSubmit, resetField, formState: { errors }, setValue } = useForm<Institution>({
+	const { register, handleSubmit, formState: { errors }, setValue } = useForm<Institution>({
 		mode: "all",
 	});
 
