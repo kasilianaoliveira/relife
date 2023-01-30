@@ -1,0 +1,66 @@
+.container {
+	max-width: 1200px;
+	margin: 12.5rem auto;
+}
+
+.title {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.title h3 {
+	font-size: 1rem;
+	color: var(--green-bold);
+	margin-bottom: 1.875rem;
+}
+
+.title h2 {
+
+	font-size: 2.25rem;
+}
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 5rem;
+}
+
+.card {
+	width: 21.875rem;
+	display: inline-block;
+
+	margin: 1.25rem auto;
+	border-radius: 5px;
+	border: 1px solid var(--green-light);
+	padding: 1.5rem;
+}
+
+.icon {
+	color: var(--green-light);
+	margin-bottom: 0.5rem;
+}
+
+.card h4 {
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	font-weight: bold;
+	margin-bottom: 1rem;
+}
+
+.card span {
+	display: block;
+	color: var(--paragraph);
+}
+
+.card:hover {
+	cursor: pointer;
+	border: 1px solid var(--green-bold);
+	;
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+	margin-top: 4rem;
+}

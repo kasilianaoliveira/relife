@@ -19,24 +19,19 @@ export const Menu = () => {
 						</Link>
 					</li>
 					<li>
-						<Link to="/institutions">
+						<a href="#instituicoes-parceiras">
 							Instituições parceiras
-						</Link>
+						</a>
 					</li>
 					<li>
-						<Link to="/informed">
+						<a href="#informe-se">
 							Informe-se
-						</Link>
+						</a>
 					</li>
 					<li>
-						<Link to="/#">
+						<a href="#contato">
 							Entre em contato
-						</Link>
-					</li>
-					<li>
-						<Link to="/about">
-							Sobre o projeto
-						</Link>
+						</a>
 					</li>
 				</ul>
 			</nav>

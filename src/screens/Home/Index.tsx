@@ -1,21 +1,20 @@
-import { Menu } from './components/menu/index';
-import { Footer } from './components/Footer/Index';
 
-import "./style.css"
-import { Information } from './components/Informations/Index';
-import { CardInfo } from './components/CardInfo/Index';
-import { Banner } from './components/Banner/Index';
-import { CardInstitution } from './components/CardInstitution/Index';
+
+import { CardInformation } from './CardInformation/Index';
+import { Contact } from './Contact/Index';
+import { Footer } from './Footer/Index';
+import { HeaderComponents } from "./Header/Index";
+import { Institutions } from './Institutions/Index';
 
 export const Home = () => {
 	return (
 		<>
-			<Menu />
-			<main className="content-principal">
-				<Banner />
-				<Information />
-				<CardInfo />
-				<CardInstitution />
+			<HeaderComponents />
+
+			<main>
+				<CardInformation />
+				<Institutions />
+				<Contact />
 			</main>
 			<Footer />
 		</>

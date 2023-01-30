@@ -1,0 +1,39 @@
+.container {
+	background-color: #C8E1D3;
+	position: relative;
+}
+
+
+.content {
+	max-width: 1200px;
+	padding: 0 30px;
+	margin: 3rem auto;
+	display: flex;
+
+
+}
+
+.content h3 {
+	font-weight: bold;
+	font-size: 1.25rem;
+	color: var(--green-bold);
+}
+
+.content h1 {
+	font-weight: bold;
+	font-size: 64px;
+	word-wrap: break-word;
+}
+
+.content p {
+	font-size: 1.25rem;
+}
+
+.content div {
+	display: flex;
+	flex-direction: column;
+	margin-top: 3.75rem;
+	margin-right: 80px;
+	gap: 1.5rem;
+	width: 43.75rem;
+}

@@ -1,0 +1,50 @@
+.footer {
+	background-color: var(--green-bold);
+	color: var(--white);
+}
+
+.content {
+	/* background-color: var(--white); */
+
+	width: 100%;
+	max-width: 1200px;
+	/* padding: 20px; */
+	margin: 0 auto;
+	padding: 3.125rem 20px;
+
+
+}
+
+.socialNavigation {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navigation {
+	display: flex;
+	flex-direction: column;
+	gap: 1.25rem;
+}
+
+.navigation ul {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+.social {
+	display: flex;
+	gap: 2rem;
+
+}
+
+.copy {
+	margin-top: 3rem;
+	border-top: 1px solid var(--white);
+}
+
+.copy p {
+	margin-top: 1rem;
+	text-align: center;
+}

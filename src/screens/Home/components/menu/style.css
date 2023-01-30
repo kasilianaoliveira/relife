@@ -1,37 +1,31 @@
 .header {
-	height: 140px;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
 }
 
 .header nav {
-	/* max-width: 1200px; */
-	padding-top: 1rem;
-	margin: 0px 60px;
+	/* position: fixed;
+	z-index: 9999; */
 	display: flex;
-	gap: 20px;
 	align-items: center;
 	justify-content: space-between;
 }
 
 .header nav ul {
-	width: 70%;
 	display: flex;
 	justify-content: space-evenly;
 	gap: 20px;
 }
 
-.header nav ul li {
-	cursor: pointer;
-	font-weight: 600;
+.header li a {
+	font-weight: bold;
 }
 
 .header nav ul li:hover {
 	color: #009F70;
 }
 
-
-.doe {
-	color: #009F70;
-}
 
 .logo {
 	width: 80px;
